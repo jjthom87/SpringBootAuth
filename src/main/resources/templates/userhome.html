@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Users Home Page</title>
+</head>
+<body>
+	
+	<!-- <h1><span th:text="${username}"></span>'s Home</h1> -->
+	<h1><span id="users-name"></span>'s Page</h1>
+	<form th:action="@{/logout}" method="post">
+		<input type="submit" value="Sign Out" />
+	</form>
+	
+	<script type="text/javascript" src="resources/js/userhome.js"></script>
+</body>
+</html>
