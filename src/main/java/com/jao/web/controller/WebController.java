@@ -1,6 +1,5 @@
 package com.jao.web.controller;
 
-import java.security.Principal;
 import java.util.logging.Logger;
 
 import org.springframework.beans.factory.annotation.Autowired;

@@ -35,7 +35,7 @@ public class HtmlController {
     
     @RequestMapping("/userhome")
     public String userHomePage(Model model) {
-    		model.addAttribute("username", securityService.getUser());
+    		//model.addAttribute("username", securityService.getUser());
     		return "userhome";
     }
     
